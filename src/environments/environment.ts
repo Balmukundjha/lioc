@@ -4,6 +4,6 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 import "zone.js/dist/zone-error";
 export const environment = {
-  production: false,
-  API_URL: ""
+  production: true,
+  API_URL: "https://lioc-chat.herokuapp.com/"
 };
