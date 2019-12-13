@@ -1,0 +1,390 @@
+.bg_cover,
+footer.main-footer {
+  width: 100%;
+  position: absolute;
+}
+.home .svg,
+.mail_img .svg svg {
+  fill: #3a3a3a;
+}
+.copyrights p,
+.help_details ul li a,
+.help_subtitle,
+.help_title,
+.privacy_desc {
+  word-break: break-all;
+}
+.back_home,
+.mail_img {
+  vertical-align: middle;
+}
+.bg_cover {
+  padding: 20px 0;
+  height: auto;
+  bottom: 0;
+  top: 67px;
+  left: 0;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+.logo img {
+  height: 40px;
+}
+.logo-content {
+  color: #fff;
+}
+h1.site-content {
+  font-size: 24px;
+  text-shadow: 0 0 2px #000;
+}
+h4.site-content {
+  font-size: 24px;
+}
+.download-apps button {
+  margin: 15px 70px 15px 0;
+}
+.mobile-show {
+  padding: 63px 18px 66px;
+}
+footer.main-footer {
+  color: #484848;
+  background: #f1f1f1;
+  bottom: -67px;
+}
+.copyright p,
+.copyright p a {
+  color: #b0b0b0;
+}
+.copyright p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+.mobile-show img {
+  height: auto;
+  max-width: 100%;
+  display: inline;
+}
+.list-option ul li a {
+  color: #424242;
+  font-size: 18px;
+}
+.navbar-brand .logo {
+  color: #1e8d93;
+  margin: 0;
+  font-size: 20px;
+}
+.phone {
+  background-size: contain;
+  padding: 57px 25px 0 23px;
+  width: 270px;
+  height: 500px;
+  display: inline-block;
+  margin-right: 40px;
+}
+.home,
+.mail_img {
+  background-size: cover;
+  display: inline-block;
+}
+.phone video {
+  width: 100%;
+  border-radius: 5px;
+}
+.app_details {
+  padding-top: 85px;
+}
+.desc {
+  color: #fff;
+  font-size: 18px;
+  width: 80%;
+  line-height: 30px;
+}
+.back_home,
+.help_details ul li a,
+.help_input,
+.social_media ul li a {
+  color: #3a3a3a;
+}
+.help_cover {
+  padding-top: 130px;
+  padding-bottom: 65px;
+}
+.help_details ul li {
+  margin-top: 15px;
+}
+.social_media ul li {
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+.help_details > h2,
+.social_media > h1 {
+  font-size: 17px;
+  font-weight: 700;
+}
+.social_icon img {
+  width: 35px;
+  height: 35px;
+}
+.social_media {
+  padding: 20px 0;
+}
+.header_bg {
+  background-color: #fff;
+  border-bottom: 1px solid #dee0df;
+}
+.home {
+  width: 15px;
+  height: 15px;
+}
+.back_home {
+  font-size: 14px;
+}
+.header_logo {
+  width: 85px;
+  height: auto;
+}
+.help_desc img {
+  max-width: 100%;
+  height: auto;
+}
+.help_headings {
+  padding: 0 20px 20px;
+}
+.help_desc {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 30px;
+}
+.help_title {
+  font-size: 14px;
+  font-weight: 700;
+}
+.help_subtitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+.help_input {
+  height: 50px;
+  border-color: #dee0df;
+  border-bottom: 5px solid #dee0df;
+}
+.help_input::placeholder {
+  color: #9f9f9f;
+}
+.help_desc textarea::placeholder {
+  color: #9f9f9f;
+}
+.help_desc textarea {
+  border-color: #dee0df;
+  border-bottom: 5px solid #dee0df;
+  color: #3a3a3a;
+}
+.privacy_desc {
+  font-size: 14px;
+}
+.mail_img {
+  width: 26px;
+  height: 20px;
+  margin-right: 5px;
+}
+.help_headings h2.active {
+  color: #05ac90;
+}
+.help_nav {
+  cursor: pointer;
+  display: none;
+}
+.help_headings h2 {
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.help_headings h2 a {
+  width: 100%;
+  /*border:1px solid #ebebeb;
+    border-left:1px solid #ebebeb;*/
+  font-weight: bold;
+  border-radius: 0 4px 4px 0;
+  padding: 10px 20px;
+  color: #424242;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* .help_headings h2 a:hover,
+.help_headings h2.active a {
+  border-left: 3px solid #05ac90;
+  background: #f5f5f5;
+  color: #05ac90;
+} */
+
+.help_desc p {
+  color: #424242;
+}
+.help_nav .img-fluid {
+  float: right;
+  margin-top: 3px;
+}
+.help_nav {
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
+@media (min-width: 768px) {
+  .help_headings.collapse {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .back_home,
+  .help_headings,
+  .phone_video {
+    display: none;
+  }
+  .help_nav {
+    display: block;
+  }
+  .help_headings,
+  .help_nav {
+    margin-bottom: 20px;
+  }
+  .app_desc.margin_top50 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .app_details {
+    padding-top: 40px;
+  }
+  .margin_top20_mobile {
+    margin-top: 20px;
+  }
+  .footer_section_mble {
+    background-color: #fff;
+    font-size: 14px;
+    font-family: Regular;
+    padding: 40px 0 100px;
+    position: relative;
+  }
+  .mobile_copy {
+    position: absolute;
+    bottom: 0;
+    padding: 0 20px;
+    margin-bottom: 35px;
+  }
+  .help_details {
+    margin-bottom: 25px;
+  }
+  .help_cover {
+    padding-top: 80px;
+    padding-bottom: 65px;
+  }
+}
+@media (max-width: 991px) {
+  .desc {
+    width: 100%;
+  }
+}
+.btn_download {
+  min-width: 192px;
+}
+.svg.fb,
+.svg.gplus,
+.svg.twitter {
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .download-apps button {
+    margin: 15px;
+  }
+  .download-apps {
+    text-align: center;
+  }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .download-apps button {
+    margin: 15px 30px 15px 0;
+  }
+  .download-apps {
+    text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+  .download-apps,
+  .logo-content {
+    text-align: center;
+  }
+  .copyright {
+    padding: 0 15px;
+  }
+  .download-apps button {
+    margin: 10px 15px;
+  }
+  .landing-mobile {
+    display: none;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .download-apps button {
+    margin: 15px 20px 15px 0;
+  }
+}
+.mobile-show {
+  width: 273px;
+  height: 553px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.display-size {
+  height: 420px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.help_nav span {
+  font-weight: 700;
+}
+
+/* latest update */
+ul ul.help-submenu {
+  padding-left: 10px;
+}
+ul ul.help-submenu li a {
+  width: 100%;
+  display: list-item;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: Montserrat, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  padding: 5px 10px;
+  border-left: 3px solid transparent;
+  color: #b0b0b0;
+}
+ul ul.help-submenu li a:hover {
+  color: #05ac90;
+}
+ul ul.help-submenu li.active a {
+  background: #f5f5f5;
+  border-left: 3px solid #05ac90;
+  color: #05ac90;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .help-sidebar {
+    max-height: 350px;
+    overflow-y: scroll;
+    z-index: 0;
+    position: relative;
+  }
+  .help_nav {
+    border-radius: 0;
+    border: 1px solid #eaeaea;
+  }
+  #help_menu_mobile {
+    padding-top: 20px;
+    margin-top: -24px;
+    border: 1px solid #eaeaea;
+    border-top: none;
+  }
+}

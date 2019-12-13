@@ -1,0 +1,47 @@
+/* css for channel chat */
+@media (min-width: 320px) and (max-width: 420px) {
+  .chat .chat-content vg-player {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .resp-width-150 {
+    width: 150px !important;
+  }
+  vg-player audio {
+    width: 150px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .tableres {
+    padding: 0;
+    margin: 0;
+    min-height: 50vh !important;
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: auto;
+  }
+  .nav-link {
+    padding: 0.5rem 0.65rem !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .chatgrid {
+    margin-bottom: 0rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .chat-application {
+    height: 400px !important;
+  }
+}
+
+.label-control {
+  text-align: left !important;
+}
+
+/* remove textarea resizing */
+textarea {
+  resize: none;
+}
