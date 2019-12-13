@@ -1,9 +1,14 @@
 {
   "name": "lioc",
   "version": "1.0.0",
+  "engines": {
+        "npm": "5.6.0",
+        "node": "8.10.0"
+      },
   "scripts": {
     "ng": "ng",
     "start": "node hiddy.js",
+    "heroku-postbuild": "npm run build",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
